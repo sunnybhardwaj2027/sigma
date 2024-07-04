@@ -5,7 +5,7 @@ int decToBin(int decNo){
     int n = decNo;
     int revBinNo = 0;
 
-    while (n >= 1){
+    while (n > 0){
         int lastDigit = n % 2;
         revBinNo = revBinNo * 10 + lastDigit;
         n = n / 2;
@@ -25,6 +25,7 @@ int decToBin(int decNo){
 int main(){
 
     int decNo;
+    cout << "Enter any decimal number = ";
     cin >> decNo;
 
     cout << decToBin(decNo) << endl;
