@@ -34,3 +34,6 @@ int main(){
 
     return 0;
 }
+
+
+// in sorted array if we want to perform any operation than use binary search
