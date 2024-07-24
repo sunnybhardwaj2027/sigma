@@ -8,7 +8,7 @@ int main(){
 
     vector<int> vec2 = {1, 2, 3, 4};
     cout << vec2.size() << endl; // 4
-
+    
     vector<int> vec3(10, -1);
     cout << vec3.size() << endl; // 10-- size of 10 value of each is -1
 
