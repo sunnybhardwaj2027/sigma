@@ -1,5 +1,5 @@
 // insertion sort 
-// idea -- pick an element from sorted part place it correctly in sorted part.
+// idea -- pick an element from unsorted part place it correctly in sorted part.
 
 #include<iostream>
 using namespace std;
