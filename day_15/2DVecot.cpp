@@ -30,9 +30,10 @@ int main(){
     vector <int> vec;
     for (int i = 0; i < 5; i++){
         vec.push_back(i);
+        cout << "size = " << vec.size() << endl;
+        cout << "capacity = " << vec.capacity() << endl;
+        cout << endl;
     }
 
-    cout << vec.size() << endl;
-    cout << vec.capacity() << endl;
     return 0;
 }
