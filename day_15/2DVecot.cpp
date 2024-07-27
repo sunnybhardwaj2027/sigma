@@ -15,7 +15,7 @@ int main(){
 
     // note-- in case of 2d vectors no of column for every row can be different which was not possible for 2d array.
 
-    vector <vector<int>> matrix2 = {{1, 2, 3}, {4, 5}, {7}};
+    vector <vector<int>> matrix2 = {{1, 2, 3}, {4, 5}, {6}};
 
     for (int i = 0; i < matrix2.size(); i++) {
         for (int j = 0; j < matrix2[i].size(); j++){
