@@ -9,7 +9,7 @@ public:
 
     // multiple constructor is possible -- consotructor overloading -- constructor is being called according to parameters.
     // non parameterized constructor
-    Car(){ // not return type for constructor
+    Car(){ // no return type for constructor
         cout << "constructor is called. object is being created..\n";
         cout << "not parameterized constructor is called.\n";
     }
