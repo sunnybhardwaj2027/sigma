@@ -37,11 +37,12 @@ public:
 };
 
 int main(){
-    Car c1; /* constructor is called. object is being created..
+    Car c1; /* output -> constructor is called. object is being created..
 not parameterized constructor is called. */
+    cout << sizeof(c1) << endl; // output -> 48
 
-    Car c2("maruti 800", "white"); /*  output -- consturctor is called. object is being created..
+    Car c2("maruti 800", "white"); /*  output -> consturctor is called. object is being created..
 parameterized constructor is called. */
-    cout << c2.getName() << endl; // output -- maruti 800
+    cout << c2.getName() << endl; // output -> maruti 800
     return 0;
 }
