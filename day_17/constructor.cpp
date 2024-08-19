@@ -7,7 +7,7 @@ class Car {
 
 public:
 
-    // multiple constructor is possible -- consotructor overloading -- constructor is being called according to parameters.
+    // multiple constructor is possible -- constructor overloading -- constructor is being called according to parameters.
     // non parameterized constructor
     Car(){ // no return type for constructor
         cout << "constructor is called. object is being created..\n";
